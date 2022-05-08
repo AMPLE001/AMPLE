@@ -10,7 +10,7 @@ Specific codes will be released publicly when the paper gets accepted. Here we g
 
 ## Dataset
 To investigate the effectiveness of DELTA, we adopt three vulnerability datasets from these paper: 
-* Fan et al.[1]: <https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view?usp=sharing>
+* Fan et al. [1]: <https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view?usp=sharing>
 * Reveal [2]: https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOy
 * FFMPeg+Qemu [3]: https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
 
