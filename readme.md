@@ -1,5 +1,5 @@
-# DETLA - Implementation
-## Software Vulnerability Detection with Graph Simplification and a Novel Graph Neural Network
+# AMPLE - Implementation
+## Vulnerability Detection with Graph Simplification and Enhanced Graph Representation Learning
 
 ## Introduction
 Prior studies have demonstrated the usefulness of deep learning (DL) and structural source code information in software vulnerability detection. They generally adopt graph neural networks (GNNs) for learning the graph representations of code. However, it has been found that GNNs are sensitive to local information in graph representation learning, and are difficult to capture the knowledge of graphs with large numbers of nodes. These issues could hamper the performance of GNNs in software vulnerability detection. To mitigate these issues, in this paper we propose a novel vulnerability DEtection approach with graph simipLificaTion and scAled GNNs, named DELTA. DELTA contains three major modules: 1) Graph Simplification module, which aims at shrinking the node sizes of code structure graphs while ensuring the code semantics; 2) Edge-Aware Graph Convolutional Network module, which incorporates the edge types for enhancing the local node representations; and 3) Kernel-Scaled Code Representation module, which scales up the  convolution kernel size to simultaneously focus on the global and
