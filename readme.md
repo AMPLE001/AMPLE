@@ -24,7 +24,7 @@ Our code is based on Python3 (>= 3.7). There are a few dependencies to run the c
 * pandas  (==1.4.1)
 * tqdm
 
-**Default settings in DETLA**:
+**Default settings in AMPLE**:
 * Training configs: 
     * batch_size = 64, lr = 0.0001, epoch = 100, patience = 20
     * opt ='RAdam', weight_decay=1e-6
