@@ -10,7 +10,7 @@ To mitigate these issues, in this paper, we propose a novel vulnerability detect
 Specific codes will be released publicly when the paper gets accepted. Here we give the code of edge-aware graph convolutional network module and kernel-scaled representation moule.
 
 ## Dataset
-To investigate the effectiveness of DELTA, we adopt three vulnerability datasets from these paper: 
+To investigate the effectiveness of AMPLE, we adopt three vulnerability datasets from these paper: 
 * Fan et al. [1]: <https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view?usp=sharing>
 * Reveal [2]: https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOy
 * FFMPeg+Qemu [3]: https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
