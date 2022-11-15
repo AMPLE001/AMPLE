@@ -34,6 +34,9 @@ After parsing the functions with joern, the code for graph construction and simp
 ## Running the model
 The model implementation code is under the ``` model\``` folder. The model can be runned from ```model\main.py```.
 
+## attention weight
+
+## experiment results
 
 ## References
 [1] Jiahao Fan, Yi Li, Shaohua Wang, and Tien Nguyen. 2020. A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries. In The 2020 International Conference on Mining Software Repositories (MSR). IEEE.
