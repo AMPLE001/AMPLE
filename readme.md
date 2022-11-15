@@ -31,10 +31,9 @@ We use Joern to generate the code structure graph and we provide a compiled vers
 
 After parsing the functions with joern, the code for graph construction and simplification is under the ```data_processing\``` folder.
 
-## Folder structure
-├── graph_transformer_layers.py
-├── mlp_readout.py
-├── model.py
+## Running the model
+The model implementation code is under the ``` model\``` folder. The model can be runned from ```model\main.py```.
+
 
 ## References
 [1] Jiahao Fan, Yi Li, Shaohua Wang, and Tien Nguyen. 2020. A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries. In The 2020 International Conference on Mining Software Repositories (MSR). IEEE.
