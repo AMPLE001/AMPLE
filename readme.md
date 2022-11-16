@@ -37,7 +37,8 @@ The model implementation code is under the ``` model\``` folder. The model can b
 ## Attention weight
 We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
-## experiment results
+## Experiment results
+
 
 ## References
 [1] Jiahao Fan, Yi Li, Shaohua Wang, and Tien Nguyen. 2020. A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries. In The 2020 International Conference on Mining Software Repositories (MSR). IEEE.
