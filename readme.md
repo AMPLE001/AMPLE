@@ -38,6 +38,73 @@ The model implementation code is under the ``` model\``` folder. The model can b
 We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
 ## Experiment results
+#### PR-AUC & MCC metrics
+<table>
+   <tr>
+      <td></td>
+      <td>Devign</td>
+      <td></td>
+      <td></td>
+      <td>Reveal</td>
+      <td></td>
+      <td></td>
+      <td>Fan</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>PR-AUC</td>
+      <td>MCC</td>
+      <td>G-mean</td>
+      <td>PR-AUC</td>
+      <td>MCC</td>
+      <td>G-mean</td>
+      <td>PR-AUC</td>
+      <td>MCC</td>
+      <td>G-mean</td>
+   </tr>
+   <tr>
+      <td>Reveal</td>
+      <td>0.6972</td>
+      <td>0.2398</td>
+      <td>0.6127</td>
+      <td>0.4841</td>
+      <td>0.3457</td>
+      <td>0.7176</td>
+      <td>0.2748</td>
+      <td>0.1783</td>
+      <td>0.5544</td>
+   </tr>
+   <tr>
+      <td>AMPLE</td>
+      <td>0.7347</td>
+      <td>0.2995</td>
+      <td>0.6069</td>
+      <td>0.5061</td>
+      <td>0.4464</td>
+      <td>0.6672</td>
+      <td>0.3383</td>
+      <td>0.286</td>
+      <td>0.5762</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>0.053786575</td>
+      <td>0.248957465</td>
+      <td>-0.009466297</td>
+      <td>0.045445156</td>
+      <td>0.291293029</td>
+      <td>-0.070234114</td>
+      <td>0.231077147</td>
+      <td>0.604038138</td>
+      <td>0.039321789</td>
+   </tr>
+   <tr>
+      <td></td>
+   </tr>
+</table>
+
 
 
 ## References
