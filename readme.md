@@ -42,27 +42,25 @@ We provide all the attention weights learned by our proposed model AMPLE for the
 <table>
    <tr>
       <td></td>
-      <td>Devign</td>
+      <td>              Devign</td>
       <td></td>
       <td></td>
-      <td>Reveal</td>
+      <td>     Reveal</td>
       <td></td>
       <td></td>
-      <td>Fan</td>
+      <td>                                 Fan</td>
       <td></td>
       <td></td>
    </tr>
    <tr>
       <td></td>
+      <td>       PR-AUC</td>
+      <td>MCC      G-mean</td>
       <td>PR-AUC</td>
-      <td>MCC</td>
+      <td>  MCC</td>
       <td>G-mean</td>
       <td>PR-AUC</td>
-      <td>MCC</td>
-      <td>G-mean</td>
-      <td>PR-AUC</td>
-      <td>MCC</td>
-      <td>G-mean</td>
+      <td>MCC      G-mean</td>
    </tr>
    <tr>
       <td>Reveal</td>
@@ -90,21 +88,11 @@ We provide all the attention weights learned by our proposed model AMPLE for the
    </tr>
    <tr>
       <td></td>
-      <td>0.053786575</td>
-      <td>0.248957465</td>
-      <td>-0.009466297</td>
-      <td>0.045445156</td>
-      <td>0.291293029</td>
-      <td>-0.070234114</td>
-      <td>0.231077147</td>
-      <td>0.604038138</td>
-      <td>0.039321789</td>
    </tr>
    <tr>
       <td></td>
    </tr>
 </table>
-
 
 
 ## References
