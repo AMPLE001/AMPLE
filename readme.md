@@ -39,60 +39,7 @@ We provide all the attention weights learned by our proposed model AMPLE for the
 
 ## Experiment results
 #### PR-AUC & MCC metrics
-<table>
-   <tr>
-      <td></td>
-      <td>                    Devign</td>
-      <td></td>
-      <td></td>
-      <td>                   Reveal</td>
-      <td></td>
-      <td></td>
-      <td>                             Fan</td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>       PR-AUC</td>
-      <td>MCC      G-mean</td>
-      <td>PR-AUC</td>
-      <td>  MCC</td>
-      <td>G-mean</td>
-      <td>PR-AUC</td>
-      <td>MCC      G-mean</td>
-   </tr>
-   <tr>
-      <td>Reveal</td>
-      <td>0.6972</td>
-      <td>0.2398</td>
-      <td>0.6127</td>
-      <td>0.4841</td>
-      <td>0.3457</td>
-      <td>0.7176</td>
-      <td>0.2748</td>
-      <td>0.1783</td>
-      <td>0.5544</td>
-   </tr>
-   <tr>
-      <td>AMPLE</td>
-      <td>0.7347</td>
-      <td>0.2995</td>
-      <td>0.6069</td>
-      <td>0.5061</td>
-      <td>0.4464</td>
-      <td>0.6672</td>
-      <td>0.3383</td>
-      <td>0.286</td>
-      <td>0.5762</td>
-   </tr>
-   <tr>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-   </tr>
-</table>
+
 
 
 ## References
