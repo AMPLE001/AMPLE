@@ -34,7 +34,8 @@ After parsing the functions with joern, the code for graph construction and simp
 ## Running the model
 The model implementation code is under the ``` model\``` folder. The model can be runned from ```model\main.py```.
 
-## attention weight
+## Attention weight
+We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
 ## experiment results
 
