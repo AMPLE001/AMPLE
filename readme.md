@@ -42,13 +42,13 @@ We provide all the attention weights learned by our proposed model AMPLE for the
 <table>
    <tr>
       <td></td>
-      <td>              Devign</td>
+      <td>                    Devign</td>
       <td></td>
       <td></td>
-      <td>     Reveal</td>
+      <td>                   Reveal</td>
       <td></td>
       <td></td>
-      <td>                                 Fan</td>
+      <td>                             Fan</td>
       <td></td>
       <td></td>
    </tr>
