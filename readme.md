@@ -38,9 +38,185 @@ The model implementation code is under the ``` model\``` folder. The model can b
 We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
 ## Experiment results
-#### PR-AUC & MCC metrics
+###  AMPLE vs. LineVul  
+<center>Table 1. Comparison results (F1-score) between AMPLE and LineVul [4].</center>
+
+<table align="center">
+<tr>
+    <td>  </td>
+    <td>FFmpeg+Qemu</td>
+    <td>Reveal</td>
+    <td>Fan at al.</td>
+</tr>
+<tr>
+    <td>LineVul</td>
+    <td>0.5654</td>
+    <td>0.4479</td>
+    <td><b>0.8684</b></td>
+</tr>
+<tr>
+    <td>AMPLE</td>
+    <td><b>0.6694</b></td>
+    <td><b>0.4848</b></td>
+    <td>0.3211</td>
+</tr>
+</table>
+
+### PR-AUC & MCC && G-measure && T-test
+<center>Table 2. Experiment results for Reveal and AMPLE. "*" denotes sttistical significance in comparision to Reveal in terms of accuracy and F1 score (i.e., two-sided t-test with p-value < 0.05).</center>
 
 
+<table align="center">
+    <tr>
+        <td>Dataset</td> 
+        <td>Metrics</td>
+         <td>Reveal</td> 
+         <td>AMPLE</td>
+         <!-- <td>Improment</td> -->
+
+   </tr>
+    <tr>
+        <td rowspan="7">FFmpeg+Qemu</td>  
+        <td>Accuracy</td> 
+        <td>0.6107</td>    
+        <td><b>0.6216</b></td>
+    </tr>
+    <tr>
+        <td>Precision</td>    
+        <td>0.5550</td>    
+        <td><b>0.5564</b></td>  
+    </tr>
+    <tr>
+        <td>Recall</td>    
+        <td>0.7070</td>    
+        <td><b>0.8399</b></td>  
+    </tr>
+    <tr>
+        <td>F1 score</td>    
+        <td>0.6219</td>    
+        <td><b>0.6694 *</b></td>
+    </tr>
+    <tr>
+        <td><b>PR-AUC</b></td>    
+        <td>0.6972</td>    
+        <td><b>0.7347</b></td>  
+    </tr>
+    <tr>
+       <td><b>MCC</b></td>
+       <td>0.2398</td>    
+        <td><b>0.2995</b></td>  
+    </tr>
+    <tr>
+       <td><b>G-measure</b></td>
+       <td>0.6264</td>    
+        <td><b>0.6836</b></td>  
+    </tr>
+    <tr>
+        <td rowspan="7">Reveal</td>  
+        <td>Accuracy</td> 
+        <td>0.8177</td>    
+        <td><b>0.9271 *</b></td>  
+    </tr>
+    <tr>
+        <td>Precision</td>    
+        <td>0.3155</td>    
+        <td><b>0.5106</b></td>  
+    </tr>
+    <tr>
+        <td>Recall</td>    
+        <td><b>0.6114</b></td>    
+        <td>0.4615</td>  
+    </tr>
+    <tr>
+        <td>F1 score</td>    
+        <td>0.4162</td>    
+        <td><b>0.4848 *</b></td>  
+    </tr>
+    <tr>
+        <td><b>PR-AUC</b></td>    
+        <td>0.4841</td>    
+        <td><b>0.5061</b></td>  
+    </tr>
+    <tr>
+       <td><b>MCC</b></td>
+       <td>0.3457</td>    
+        <td><b>0.4464</b></td>  
+    </tr>
+    <tr>
+       <td><b>G-measure</b></td>
+       <td>0.4392</td>    
+        <td><b>0.4854</b></td>  
+    </tr>
+    <tr>
+        <td rowspan="7">Fan et al.</td>   
+        <td>Accuracy</td>    
+        <td>0.8714</td>    
+        <td><b>0.9314 *</b></td>  
+    </tr>
+    <tr>
+       <td>Precision</td>
+       <td>0.1722</td>    
+        <td><b>0.2998</b></td>  
+    </tr>
+    <tr>
+       <td>Recall</td>
+       <td>0.3404</td>    
+        <td><b>0.3458</b></td>  
+    </tr>
+    <tr>
+       <td>F1 score</td>
+       <td>0.2287</td>    
+        <td><b>0.3211 *</b></td>  
+    </tr>
+    <tr>
+       <td><b>PR-AUC</b></td>
+       <td>0.2748</td>    
+        <td><b>0.3383</b></td>  
+    </tr>
+    <tr>
+       <td><b>MCC</b></td>
+       <td>0.1783</td>    
+        <td><b>0.2860</b></td>  
+    </tr>    
+    <tr>
+       <td><b>G-measure</b></td>
+       <td>0.2421</td>    
+        <td><b>0.322</b></td>  
+    </tr>			
+</table>
+
+<center>Table 3. The p-value of two-sided t-test results between AMPLE and Reveal in terms of accuracy and F1 score.</center>
+
+<table align="center">
+<tr>
+    <td></td>
+    <td>FFmpeg+Qemu</td>
+    <td>Reveal</td>
+    <td>Fan et al.</td>
+</tr>
+<tr>
+    <td>Accuracy</td>
+    <td>0.41</td>
+    <td><b>4.67e-12</b></td>
+    <td><b>1.00e-4</b></td>
+</tr>
+<tr>
+    <td>F1 score</td>
+    <td><b>1.00e-3</b></td>
+    <td><b>4.55e-6</b></td>
+    <td><b>1.41e-9</b></td>
+</tr>
+</table>
+
+
+<!-- #### T-test
+
+<table>
+<tr>
+    <td> </td>
+</tr>
+
+</table> -->
 
 ## References
 [1] Jiahao Fan, Yi Li, Shaohua Wang, and Tien Nguyen. 2020. A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries. In The 2020 International Conference on Mining Software Repositories (MSR). IEEE.
@@ -48,4 +224,6 @@ We provide all the attention weights learned by our proposed model AMPLE for the
 [2] Saikat Chakraborty, Rahul Krishna, Yangruibo Ding, and Baishakhi Ray. 2020. Deep Learning based Vulnerability Detection: Are We There Yet? arXiv preprint arXiv:2009.07235 (2020).
 
 [3] Yaqin Zhou, Shangqing Liu, Jingkai Siow, Xiaoning Du, and Yang Liu. 2019. Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks. In Advances in Neural Information Processing Systems. 10197–10207.
+
+[4] M. Fu and C. Tantithamthavorn. 2022. Linevul: A transformer-based line-level vulnerability prediction. In The 2022 International Conference on Mining Software Repositories (MSR). IEEE.
 
