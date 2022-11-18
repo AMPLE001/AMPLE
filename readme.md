@@ -9,7 +9,7 @@ To mitigate these issues, in this paper, we propose a novel vulnerability detect
 ## Dataset
 To investigate the effectiveness of AMPLE, we adopt three vulnerability datasets from these paper: 
 * Fan et al. [1]: <https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view?usp=sharing>
-* Reveal [2]: https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOy
+* Reveal [2]: https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOyF
 * FFMPeg+Qemu [3]: https://drive.google.com/file/d/1x6hoF7G-tSYxg8AFybggypLZgMGDNHfF
 
 ## Requirement
@@ -46,7 +46,7 @@ We provide all the attention weights learned by our proposed model AMPLE for the
     <td>  </td>
     <td>FFmpeg+Qemu</td>
     <td>Reveal</td>
-    <td>Fan at al.</td>
+    <td>Fan et al.</td>
 </tr>
 <tr>
     <td>LineVul</td>
