@@ -7,6 +7,6 @@ To use this version of joern to parse the function:
 
   &nbsp; -- start form ```AMPLE/data_processing/process.py```
 
-After parsing the functions, use ```AMPLE/data_processing/word2vec.py``` for training the word2vec model.
+After parsing the functions, use ```AMPLE/data_processing/word2vec.py``` for training the word2vec model. We also provide our trained word2vec model [here](https://zenodo.org/record/7333062#.Y3c5SHZByUk)
 
 For constructing and simplifying the code structure graphs, start from ```AMPLE/data_processing/cpg_(original/TGS/VGS/GS).py```.
