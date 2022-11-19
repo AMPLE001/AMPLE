@@ -38,29 +38,8 @@ The model implementation code is under the ``` AMPLE_code\``` folder. The model 
 We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
 
 ## Experiment results
-###  AMPLE vs. LineVul  
-<center>Table 1. Comparison results (F1-score) between AMPLE and LineVul [4].</center>
-
-<table align="center">
-<tr>
-    <td>  </td>
-    <td>FFmpeg+Qemu</td>
-    <td>Reveal</td>
-</tr>
-<tr>
-    <td>LineVul</td>
-    <td>0.5654</td>
-    <td>0.4479</td>
-</tr>
-<tr>
-    <td>AMPLE</td>
-    <td><b>0.6694</b></td>
-    <td><b>0.4848</b></td>
-</tr>
-</table>
-
 ### PR-AUC & MCC && G-measure && T-test
-<center>Table 2. Experiment results for Reveal and AMPLE. "*" denotes sttistical significance in comparision to Reveal in terms of accuracy and F1 score (i.e., two-sided t-test with p-value < 0.05).</center>
+<center>Table 1. Experiment results for Reveal and AMPLE. "*" denotes sttistical significance in comparision to Reveal in terms of accuracy and F1 score (i.e., two-sided t-test with p-value < 0.05).</center>
 
 
 <table align="center">
@@ -182,7 +161,7 @@ We provide all the attention weights learned by our proposed model AMPLE for the
     </tr>			
 </table>
 
-<center>Table 3. The p-value of two-sided t-test results between AMPLE and Reveal in terms of accuracy and F1 score.</center>
+<center>Table 2. The p-value of two-sided t-test results between AMPLE and Reveal in terms of accuracy and F1 score.</center>
 
 <table align="center">
 <tr>
