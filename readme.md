@@ -32,7 +32,7 @@ We use Joern to generate the code structure graph and we provide a compiled vers
 After parsing the functions with joern, the code for graph construction and simplification is under the ```data_processing\``` folder. ```data_processing\word2vec.py``` is used to train word2vec model. ```data_processing\utils.py``` includes the tokenizer. 
 
 ## Running the model
-The model implementation code is under the ``` model\``` folder. The model can be runned from ```model\main.py```.
+The model implementation code is under the ``` AMPLE_code\``` folder. The model can be runned from ```AMPLE_code\main.py```.
 
 ## Attention weight
 We provide all the attention weights learned by our proposed model AMPLE for the test samples. Each dataset corresponds to a json file under ```attention weight\``` folder.
