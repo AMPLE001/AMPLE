@@ -46,19 +46,16 @@ We provide all the attention weights learned by our proposed model AMPLE for the
     <td>  </td>
     <td>FFmpeg+Qemu</td>
     <td>Reveal</td>
-    <td>Fan et al.</td>
 </tr>
 <tr>
     <td>LineVul</td>
     <td>0.5654</td>
     <td>0.4479</td>
-    <td><b>0.8684</b></td>
 </tr>
 <tr>
     <td>AMPLE</td>
     <td><b>0.6694</b></td>
     <td><b>0.4848</b></td>
-    <td>0.3211</td>
 </tr>
 </table>
 
